@@ -16,7 +16,6 @@ const Rooms = () => {
     state: { filteredRooms },
     dispatch,
   } = useValue();
-  console.log(filteredRooms);
 
   useEffect(() => {
     getRooms(dispatch);

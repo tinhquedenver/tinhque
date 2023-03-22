@@ -33,7 +33,6 @@ const ProgressItem = ({ file }) => {
           type: 'UPDATE_ALERT',
           payload: { open: true, severity: 'error', message: error.message },
         });
-        console.log(error);
       }
     };
     setImageURL(URL.createObjectURL(file));

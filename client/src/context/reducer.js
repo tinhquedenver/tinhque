@@ -161,6 +161,5 @@ const reportFundsFilter = (funds, startDate, endDate) => {
     var date = new Date(a.inDate);
     return date >= startDate && date <= endDate;
   });
-  console.log(endDate)
   return reportFunds;
 }

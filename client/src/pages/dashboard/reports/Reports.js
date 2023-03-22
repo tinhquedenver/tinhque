@@ -131,16 +131,8 @@ const Reports = ({ setSelectedLink, link }) => {
   const setDetailData = async (startDate, endDate) => {
     dispatch({ type: "REPORT_ROOMS_FILTER", payload: [startDate, endDate] });
     dispatch({ type: "REPORT_FUNDS_FILTER", payload: [startDate, endDate] });
-
-   /*  setExpense(reportRooms.reduce((a, v) => (a = a + v.price), 0));
-    setFund(reportFunds.reduce((a, v) => (a = a + v.amount), 0));
-    setBalance(
-      reportFunds.reduce((a, v) => (a = a + v.amount), 0) -
-        reportRooms.reduce((a, v) => (a = a + v.price), 0)
-    ); */
   };
-console.log(rooms)
-console.log(reportRooms)
+  
   useEffect(() => {
     setSelectedLink(link);
   }, []);
