@@ -109,11 +109,7 @@ const Rooms = ({ setSelectedLink, link }) => {
       </Tooltip>
       <DataGrid
         columns={columns}
-        rows={
-          isAdmin(currentUser)
-            ? rooms
-            : rooms.filter((room) => room.uid === currentUser.id)
-        }
+        rows={rooms}
         getRowId={(row) => row._id}
         rowSpacingType="border"
         rowsPerPageOptions={[5, 10, 20]}
