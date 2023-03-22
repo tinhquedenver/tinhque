@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Loading from './components/Loading';
 import Notification from './components/Notification';
 import Room from './components/rooms/Room';
+import React from 'react';
 
 const App = () => {
   return (
