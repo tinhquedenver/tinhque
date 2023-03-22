@@ -8,7 +8,7 @@ import { useValue } from '../../../context/ContextProvider';
 const UsersActions = ({ params, rowId, setRowId }) => {
   const {
     dispatch,
-    state: { currentUser, users },
+    state: { currentUser },
   } = useValue();
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);

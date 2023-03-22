@@ -9,15 +9,11 @@ const Fund = ({ setSelectedLink, link }) => {
     dispatch,
   } = useValue();
 
-  const [isNew, setIsNew] = useState(false);
-
   useEffect(() => {
     setSelectedLink(link);
     if (funds.length === 0) getFunds(dispatch, currentUser);
   }, []);
 
-console.log(funds)
-console.log(isNew)
   return (
       <Funds/>
   );

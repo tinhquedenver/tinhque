@@ -5,7 +5,7 @@ import {
   gridClasses,
 } from "@mui/x-data-grid";
 import { useValue } from "../../../context/ContextProvider";
-import { clearRoom, getRooms } from "../../../actions/room";
+import { getRooms } from "../../../actions/room";
 import moment from "moment";
 import { grey } from "@mui/material/colors";
 import RoomsActions from "./RoomsActions";

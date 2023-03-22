@@ -9,7 +9,7 @@ import "dayjs/locale/en";
 const AddDetails = () => {
   const {
     state: {
-      details: { title, description, price, inDate },
+      details: { title, description, price },
     },
     dispatch,
   } = useValue();
