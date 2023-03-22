@@ -86,7 +86,6 @@ export const updateProfile = async (currentUser, updatedFields, dispatch) => {
         message: error.message,
       },
     });
-    console.log(error);
   }
 
   dispatch({ type: 'END_LOADING' });
