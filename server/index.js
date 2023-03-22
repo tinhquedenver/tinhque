@@ -35,7 +35,7 @@ app.use((req, res) =>
 
 const startServer = async () => {
   try {
-    //await mongoose.connect(process.env.MONGO_CONNECT);
+    await mongoose.connect(process.env.MONGO_CONNECT);
     app
       .listen(port, () => console.log(`Server is listening on port: ${port}`))
       .on('error', (e) => {
