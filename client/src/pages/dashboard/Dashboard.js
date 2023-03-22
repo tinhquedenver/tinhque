@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import MuiAppBar from '@mui/material/AppBar';
 import { Brightness4, Brightness7, Home, Menu } from '@mui/icons-material';
-import { useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SideList from './SideList';
 import Protected from '../../components/protected/Protected';

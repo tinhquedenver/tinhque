@@ -8,7 +8,7 @@ import {
   Tooltip,
 } from "@mui/material";
 import { useValue } from "../../context/ContextProvider";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { getRooms } from "../../actions/room";
 
 const Rooms = () => {

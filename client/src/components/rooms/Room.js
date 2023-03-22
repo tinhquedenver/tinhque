@@ -11,7 +11,7 @@ import {
   Tooltip,
   Typography,
 } from '@mui/material';
-import { forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 import { useValue } from '../../context/ContextProvider';
 import { Close } from '@mui/icons-material';
 

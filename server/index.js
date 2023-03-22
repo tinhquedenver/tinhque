@@ -7,7 +7,7 @@ import fundRouter from './routes/fundRouter.js'
 
 dotenv.config();
 
-const port = process.env.PORT || 4200;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
