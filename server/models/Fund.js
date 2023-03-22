@@ -17,7 +17,7 @@ const fundSchema = mongoose.Schema(
       trim: true,
     },
     inDate:{type: Date},
-    amount: { type: Number, min: 0, max: 5000, default: 0 },
+    amount: { type: Number, min: 0, max: 100000, default: 0 },
     description: {
       type: String,
       required: true,
